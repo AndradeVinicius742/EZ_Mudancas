@@ -1,0 +1,46 @@
+@media screen and (max-width: 426px){
+ /*   header{
+        flex-direction: row;
+    }
+    main{
+        flex-direction: row;
+    }*/
+
+    main{
+        
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+       width: 70%;
+   
+        
+    }
+    h2{
+        font-size: 30px;
+    }
+
+    h3{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+   
+    button{
+        align-content: center;
+        
+    }
+
+
+    .logo{
+      display: none;
+       width: 150px;
+       margin-top: 15px;
+        
+    }
+
+    .imagens{
+        
+        width: 200px;
+        
+    }
+  
+}

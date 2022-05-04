@@ -1,0 +1,135 @@
+*{
+   --amarelo: #FFC000;
+   --laranja: #D11B0F;
+   --preto: #333333;
+   --texto: rgba(255, 255, 255, 0.938);
+   margin: 0;
+   padding: 0;
+}
+
+
+body{
+    background-color: var(--preto);
+    color: var(--texto);
+    font-family: 'Roboto', sans-serif;
+    
+    
+   
+}
+
+
+
+nav{
+    background-color: var(--laranja);
+   
+}
+
+.title{
+    flex-direction: column;
+    line-height: 10px;
+
+}
+
+
+h1{
+    font-weight: 200px;
+}
+
+
+
+main{
+    background-color: var(--amarelo);
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    border: 70px solid ;
+   border-color: var(--amarelo)
+    
+
+}
+
+#depoimentos{
+    color: var(--texto);
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    margin-left: 60px;
+    margin-left: 60px;
+
+ 
+}
+p{
+    font-size: 25px;
+}
+
+h2{
+    font-size: 50px;
+    
+   
+}
+
+h3{
+    font-size: 30px;
+}
+
+span{
+    color: var(--texto);
+}
+
+
+
+.logo{
+  
+    padding-left: 180px;
+    
+    width: 280px;
+}
+
+button{
+    margin-top: 30px;
+    align-items: center;
+    border-radius: 10px;
+}
+.whats{
+    background-color: var(--laranja);
+
+    color: white;
+    width: 100px;
+    height: 50px;
+    border: solid gray;
+}
+
+.whats:hover{
+    border: solid rgb(7, 146, 7);
+    background-color: rgb(7, 146, 7);
+    transition: 1s;
+}
+
+.face{
+    background-color: var(--laranja);
+
+    color: white;
+    width: 100px;
+    height: 50px;
+    border: solid gray;
+}
+
+.face:hover{
+    border: solid rgba(32, 32, 167, 0.822);
+    background-color: rgba(32, 32, 167, 0.822);
+    transition: 1s;
+}
+
+.fotos{
+    align-items: center;
+    text-align: center;
+    margin-left: 60px;
+    margin-left: 60px;
+}
+
+.imagens{
+    width: 500px;
+    margin: 30px;
+
+}
